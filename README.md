@@ -171,7 +171,11 @@ WORKDIR /myapp
 COPY main.py /myapp/main.py
 CMD ["python", "/myapp/main.py"]
 
+===
+
 File 4. Workflow yaml file: Create this file in the “.github/workflows” folder with “.yaml” Extension
+
+===
 
 name: 'Build and Deploy to Cloud Run'
 
